@@ -38,3 +38,5 @@ This is a React-App SPA focused on an attractive responsive design, sending diff
 
 >![React Diagram](/src/Images/Planning/React-Components%20Diagram.PNG)
 
+&nbsp;
+The 2 hours Challenge antil this commit "31a1b1016ae0e1a34c9c77550e69af332e064aa0" , please check in the main branch. 
