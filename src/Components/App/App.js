@@ -42,7 +42,7 @@ function App() {
   return (
     <div className={css.App}>
       <Header handleChange={handleChange} handleClickButton={handleClickButton} />
-      <Main />
+      <Main data={data} endPoint={endPoint}/>
       <Footer />
     </div>
   );
