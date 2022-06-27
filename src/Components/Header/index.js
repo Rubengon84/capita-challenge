@@ -3,11 +3,11 @@ import Title from "../Title";
 import SelectionButton from "../SelectionButton";
 import css from "./Header.module.css";
 
-function Header() {
+function Header({ handleChange, handleClickButton }) {
   return (
     <header>
       <Title />
-      <SelectionButton />
+      <SelectionButton handleChange={handleChange} handleClickButton={handleClickButton}/>
     </header>
   );
 }

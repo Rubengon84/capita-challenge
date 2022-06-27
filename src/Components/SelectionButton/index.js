@@ -1,12 +1,12 @@
 import React from "react";
 import css from "./SelectionButton.module.css";
 
-function SelectionButton() {
+function SelectionButton({ handleChange, handleClickButton }) {
   return (
     <section>
       <div>
-        <label for="endPoint">Choose the data to retrieve</label>
-        <select name="endPoint" id="endPoint">
+        <label>Choose the data to retrieve</label>
+        <select name="endPoint" onChange={(e) => handleChange(e)}>
           <option value="posts">Posts</option>
           <option value="comments">Comments</option>
           <option value="albums">Albums</option>
@@ -15,7 +15,7 @@ function SelectionButton() {
           <option value="users">Users</option>
         </select>
       </div>
-      <button>Get new Random Data</button>
+      <button onClick={() => handleClickButton()}>Get new Random Data</button>
     </section>
   );
 }
