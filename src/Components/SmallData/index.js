@@ -29,13 +29,20 @@ function SmallData({ data }) {
         )}
       </div>
       <div>
-        {data.photo ? (
-          <img src={data.photo} alt="description" />
+        {data.url ? (
+          <div className={css.imageContainer}>
+            <img src={data.url} alt="description" />
+          </div>
         ) : data.body ? (
           <p>{data.body}</p>
-        ) : data.completed ? (
+        ) : data.completed === false || data.completed ? (
           <p>
-            Completed: {data.completed ? <span> ✔ </span> : <span>❌</span>}
+            Completed:{" "}
+            {data.completed ? (
+              <span className={css.mark}> ✔</span>
+            ) : (
+              <span className={css.mark}>❌</span>
+            )}
           </p>
         ) : (
           ""

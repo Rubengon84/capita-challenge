@@ -1,0 +1,38 @@
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.titleContainer h1 {
+  color: #28a9e0;
+  margin-block-end: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem white;
+}
+
+.logoContainer {
+  width: 25%;
+  min-width: 150px ;
+  height: 4rem;
+  background-image: url("../../Images/Logo/Capita_Logo0.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: logo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0%   {background-image: url("../../Images/Logo/Capita_Logo0.png");}
+  15%  {background-image: url("../../Images/Logo/Capita_Logo1.png");}
+  30%  {background-image: url("../../Images/Logo/Capita_Logo2.png");}
+  45% {background-image: url("../../Images/Logo/Capita_Logo3.png");}
+  60%  {background-image: url("../../Images/Logo/Capita_Logo4.png");}
+  75%  {background-image: url("../../Images/Logo/Capita_Logo5.png");}
+  90% {background-image: url("../../Images/Logo/Capita_Logo6.png");}
+}

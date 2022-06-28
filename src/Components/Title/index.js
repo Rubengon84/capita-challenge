@@ -3,9 +3,9 @@ import css from "./Title.module.css";
 
 function Title() {
   return ( 
-  <div>
-    <h1>Technical challenge</h1>
-    <div></div>
+  <div className={css.titleContainer}>
+    <h1>Technical Challenge</h1>
+    <div className={css.logoContainer}></div>
   </div>
   )
 }

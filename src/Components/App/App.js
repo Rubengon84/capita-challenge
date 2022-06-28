@@ -11,7 +11,6 @@ function App() {
   const [endPoint, setEndPoint] = useState("posts");  // State to keep the endpoints of the url for making the data requests.
   const [buttonClicked, setButtonClicked] = useState(true);  // State for triggering useEffect every time is clicked. 
   const [data, setData] = useState(null);  // State to save the state to show on the main component.
-  console.log(data);
 
   // Function to toggle the value of the state everytime the button is clicked.
   function handleClickButton() {
