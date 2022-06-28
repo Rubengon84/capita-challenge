@@ -1,4 +1,3 @@
-
 // Function for returnin a random number between the range of the data endPoints, to use in the url request for getting random data.
 const randomNumber = (endPoint) => {
   let range;
