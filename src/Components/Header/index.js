@@ -5,9 +5,12 @@ import css from "./Header.module.css";
 
 function Header({ handleChange, handleClickButton }) {
   return (
-    <header>
+    <header className={css.headerContainer}>
       <Title />
-      <SelectionButton handleChange={handleChange} handleClickButton={handleClickButton}/>
+      <SelectionButton
+        handleChange={handleChange}
+        handleClickButton={handleClickButton}
+      />
     </header>
   );
 }

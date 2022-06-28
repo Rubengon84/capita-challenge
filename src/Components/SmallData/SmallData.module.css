@@ -1,0 +1,28 @@
+.smallDataContainer {
+  width: 80%;
+  height: auto;
+}
+
+.smallDataContainer p {
+  font-weight: bold;
+}
+
+.smallDataContainer span {
+  font-weight: normal;
+}
+
+.imageContainer {
+  margin: 0 auto;
+  width: 25%;
+  padding: 0.5rem;
+}
+
+.smallDataContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.mark {
+  color: green;
+  font-size: 1.2rem;
+}
