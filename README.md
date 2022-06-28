@@ -26,7 +26,7 @@ Feel free to provide any detail on your approach as well as example code develop
 ## MVP
 
 &nbsp;
-This is a React-App SPA focused on an attractive responsive design, sending different requests to the API and showing the data information on the main component. 
+This is a React-App SPA focused on an attractive responsive design, sending different requests to the API depending on which endpoint the user is choosing, and showing the data information on the main component. 
 
 &nbsp;
 >#### - MVP Wireframe
@@ -40,3 +40,7 @@ This is a React-App SPA focused on an attractive responsive design, sending diff
 
 &nbsp;
 The 2 hours Challenge antil this commit "31a1b1016ae0e1a34c9c77550e69af332e064aa0" , please check in the main branch. 
+
+&nbsp;
+## - App deployed
+https://capita-challenge.netlify.app/
