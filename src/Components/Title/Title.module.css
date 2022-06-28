@@ -1,4 +1,3 @@
-
 .titleContainer {
   display: flex;
   flex-direction: column;
@@ -16,7 +15,7 @@
 
 .logoContainer {
   width: 25%;
-  min-width: 150px ;
+  min-width: 150px;
   height: 4rem;
   background-image: url("../../Images/Logo/Capita_Logo0.png");
   background-position: center;
@@ -28,11 +27,25 @@
 }
 
 @keyframes logo {
-  0%   {background-image: url("../../Images/Logo/Capita_Logo0.png");}
-  15%  {background-image: url("../../Images/Logo/Capita_Logo1.png");}
-  30%  {background-image: url("../../Images/Logo/Capita_Logo2.png");}
-  45% {background-image: url("../../Images/Logo/Capita_Logo3.png");}
-  60%  {background-image: url("../../Images/Logo/Capita_Logo4.png");}
-  75%  {background-image: url("../../Images/Logo/Capita_Logo5.png");}
-  90% {background-image: url("../../Images/Logo/Capita_Logo6.png");}
+  0% {
+    background-image: url("../../Images/Logo/Capita_Logo0.png");
+  }
+  15% {
+    background-image: url("../../Images/Logo/Capita_Logo1.png");
+  }
+  30% {
+    background-image: url("../../Images/Logo/Capita_Logo2.png");
+  }
+  45% {
+    background-image: url("../../Images/Logo/Capita_Logo3.png");
+  }
+  60% {
+    background-image: url("../../Images/Logo/Capita_Logo4.png");
+  }
+  75% {
+    background-image: url("../../Images/Logo/Capita_Logo5.png");
+  }
+  90% {
+    background-image: url("../../Images/Logo/Capita_Logo6.png");
+  }
 }

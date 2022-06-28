@@ -7,7 +7,10 @@ function Header({ handleChange, handleClickButton }) {
   return (
     <header className={css.headerContainer}>
       <Title />
-      <SelectionButton handleChange={handleChange} handleClickButton={handleClickButton}/>
+      <SelectionButton
+        handleChange={handleChange}
+        handleClickButton={handleClickButton}
+      />
     </header>
   );
 }

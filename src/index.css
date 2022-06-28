@@ -1,4 +1,3 @@
-
 html {
   size: 16px;
 }
@@ -12,22 +11,27 @@ a:visited {
   color: inherit;
 }
 
-a, p, h2, h3, label, span {
+a,
+p,
+h2,
+h3,
+label,
+span {
   color: white;
 }
 
 body {
   width: 100vw;
-  background-color: #282d59 ;
+  background-color: #282d59;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
