@@ -3,9 +3,9 @@ import css from "./SelectionButton.module.css";
 
 function SelectionButton({ handleChange, handleClickButton }) {
   return (
-    <section>
-      <div>
-        <label>Choose the data to retrieve</label>
+    <section className={css.selectionContainer}>
+      <div className={css.selectionInput}>
+        <label>Choose the data to retrieve!</label>
         <select name="endPoint" onChange={(e) => handleChange(e)}>
           <option value="posts">Posts</option>
           <option value="comments">Comments</option>
@@ -15,7 +15,7 @@ function SelectionButton({ handleChange, handleClickButton }) {
           <option value="users">Users</option>
         </select>
       </div>
-      <button onClick={() => handleClickButton()}>Get new Random Data</button>
+      <button onClick={() => handleClickButton()}>Get New Random Data</button>
     </section>
   );
 }

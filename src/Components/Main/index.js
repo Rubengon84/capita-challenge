@@ -5,7 +5,7 @@ import css from "./Main.module.css";
 
 function Main({ data, endPoint }) {
   return (
-    <main>
+    <main className={css.mainContainer}>
       {data === null ? (
         <p>No data yet</p>
       ) : endPoint === "users" ? (
